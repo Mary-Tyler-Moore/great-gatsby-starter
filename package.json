@@ -1,0 +1,32 @@
+{
+  "name": "great-gatsby-starter",
+  "description": "Great Gatsby Starter with Rebass UI component library, Styled Components, Typography.js and easy theming",
+  "version": "1.0.0",
+  "author": "Greg Santos <gregsantos@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.25",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-plugin-typography": "^1.7.18",
+    "react-helmet": "^5.2.0",
+    "rebass": "^1.0.7",
+    "styled-normalize": "^4.0.0",
+    "typography": "^0.16.6",
+    "typography-theme-stern-grove": "^0.15.10"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
